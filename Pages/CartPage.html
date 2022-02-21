@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e57cde0360.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/main.css">
+    <title>CartPage</title>
+</head>
+<body>
+    <div class="App">
+    <div class="CartPage">
+    <header>
+        <div class="header">
+            <div class="header_top-container">
+                <div class="header_top_location">
+                <i class="fas fa-location-dot icon-map-pin"></i>
+                <p class="header_top_location_name">Rajasthan, India</p>
+                </div>
+                <div class="header_top_actions-wrapper">
+                <p class="header_top_action action-1">Find a store</p>
+                <p class="header_top_action action-2">Contact Us</p>
+                </div>
+            </div>
+            <nav class="header_main-container">
+                <a href="/Index.html"> <div class="header_main_brand-name">Brand</div> </a>
+                <div class="header_main_nav-pills-wrapper">
+                <h5 class="header_main_nav-pill">pill1</h5>
+                <h5 class="header_main_nav-pill">pill2</h5>
+                <h5 class="header_main_nav-pill">pill3</h5>
+                <h5 class="header_main_nav-pill">pill4</h5>
+                <h5 class="header_main_nav-pill">pill5</h5>
+                </div>
+                <div class="header_main_nav-actions-wrapper">
+                <div class="header_main_nav-search-wrapper">
+                    <i class="fas fa-lg fa-magnifying-glass"></i>
+                    <input type="text" placeholder='search' class='header_main_nav-search-box'/>
+                </div>
+                <div class="header_main_nav-action-icons-wrapper">
+                    <a href="/Pages/SignupPage.html"> <i class="far fa-lg fa-user header_main_nav-action-icon icon-user"></i>  </a>
+                    <a href="/Pages/WishlistPage.html"> <i class="far fa-lg fa-heart header_main_nav-action-icon icon-wishlist"></i> </a>
+                    <a href="/Pages/CartPage.html">  <i class="fas fa-lg fa-bag-shopping header_main_nav-action-icon icon-bag"></i> </a>
+                </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="cartPage-container">
+        <div class="cartPage_header">
+            <div class="cartPage_header-labels-wrapper">
+                <div class="cartPage_header-label">
+                    Cart
+                    <span class="cartPage_header-label-dot"></span>
+                </div>
+                <div class="cartPage_header-label">
+                    Checkout
+                    <span class="cartPage_header-label-dot"></span>
+                </div>
+                <div class="cartPage_header-label">
+                    Confirmation
+                    <span class="cartPage_header-label-dot"></span>
+                </div>
+            </div>
+            <span class="cartPage_line"></span>
+        </div>
+
+        <div class="cartPage_bottom">
+            <div class="cartPage_cards">
+                <div class="cartPage_each-card-wrapper">
+                    <div class="cartPage_each-card-left">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="cartPage_card-img" />
+                    <FaHeart viewBox='0 0 512 555' size="1.5em" class='each-card_img-overlay icon-heart' />
+                    <!-- <MdOutlineArrowForwardIos size="1em" class='each-card_img-overlay icon-arrow arrow-right'/> -->
+                    <!-- <MdOutlineArrowBackIosNew size="1em" class='each-card_img-overlay icon-arrow arrow-left'/> -->
+                    </div>
+
+                    <div class="cartPage_each-card-section-right">
+                        <p class="cartPage_card-desc">Xyz Jacket With Leather Details</p>
+                        <div class="cartPage_each-card-section-right-col-1">
+                            <p class="cartPage_card-price">$999</p>
+                            <p class="cartPage_card-size">M</p>
+                            <p class="cartPage_card-color yellow"></p>
+                        </div>
+                        <div class="cartPage_each-card-section-right-col-2">
+                            <p class="cartPage_card-qty">
+                                -
+                                <input type="number" name="/" id="/" class="cartPage_card-qty-input" value="1">
+                                +
+                            </p>
+                        </div>
+                        <div class="cartPage_eachCard_action-wrapper">
+                            <button class="cartPage_card-action move-to-wishlist hover-fill-solid">Move to wishlist</button>
+                            <button class="cartPage_card-action move-to-wishlist hover-fill-solid">Remove from bag</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartPage_each-card-wrapper">
+                    <div class="cartPage_each-card-left">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="cartPage_card-img" />
+                    <FaHeart viewBox='0 0 512 555' size="1.5em" class='each-card_img-overlay icon-heart' />
+                    <!-- <MdOutlineArrowForwardIos size="1em" class='each-card_img-overlay icon-arrow arrow-right'/> -->
+                    <!-- <MdOutlineArrowBackIosNew size="1em" class='each-card_img-overlay icon-arrow arrow-left'/> -->
+                    </div>
+
+                    <div class="cartPage_each-card-section-right">
+                        <p class="cartPage_card-desc">Xyz Jacket With Leather Details</p>
+                        <div class="cartPage_each-card-section-right-col-1">
+                            <p class="cartPage_card-price">$999</p>
+                            <p class="cartPage_card-size">M</p>
+                            <p class="cartPage_card-color yellow"></p>
+                        </div>
+                        <div class="cartPage_each-card-section-right-col-2">
+                            <p class="cartPage_card-qty">
+                                -
+                                <input type="number" name="/" id="/" class="cartPage_card-qty-input" value="1">
+                                +
+                            </p>
+                        </div>
+                        <div class="cartPage_eachCard_action-wrapper">
+                            <button class="cartPage_card-action move-to-wishlist hover-fill-solid">Move to wishlist</button>
+                            <button class="cartPage_card-action move-to-wishlist hover-fill-solid">Remove from bag</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cartPage_price-details">
+                <div class="cartPage_apply-voucher-wrapper">
+                    <input type="text" id="/" class="cartPage_apply-voucher-input" placeholder="14 digit voucher code">
+                    <button class="cartPage_apply-voucher-action hover-fill-solid">Apply</button>
+                </div>
+                <div class="cartPage_price-details-wrapper">
+                    <h5 class="price_details-title">Price Details (2 items)</h5>
+                </div>
+                <div class="price-details_info-wrapper">
+                    <div class="price-details_info-each">
+                        <p class="price-details_info-title">Initial Price</p>
+                        <p class="price-details_info-digit">$2000</p>
+                    </div>
+                    <div class="price-details_info-each">
+                        <p class="price-details_info-title">Discount on Price</p>
+                        <p class="price-details_info-digit">- $500</p>
+                    </div>
+                    <div class="price-details_info-each">
+                        <p class="price-details_info-title">Voucher Discount</p>
+                        <p class="price-details_info-digit">- $200</p>
+                    </div>
+                    <div class="price-details_info-each">
+                        <p class="price-details_info-title">Delivery Charges</p>
+                        <p class="price-details_info-digit">$50</p>
+                    </div>
+                    <div class="price-details_info-each total">
+                        <p class="price-details_info-title total">Total Amount</p>
+                        <p class="price-details_info-digit">$1350</p>
+                    </div>
+                </div>
+                <button class="price-details-action-place hover-fill-solid">Place your order</button>
+            </div>
+        </div>
+    </main>
+
+        <footer>
+            <div class="footer-features-container">
+                <div class="footer-features_feature feature-1">
+                  <div class="footer-features_feature-title">
+                    <p class="footer-features-title-text">New Trending</p>
+                    <i class="fas fa-angle-right footer-features_features_title_arrow-icon arrow-right fa-xl"></i>
+                  </div>
+                  <p class="footer-features_feature-desc">This is footer features description</p>
+                </div>
+        
+                <div class="footer-features_feature feature-2">
+                  <div class="footer-features_feature-title">
+                    <p class="footer-features-title-text">New Trending</p>
+                    <i class="fas fa-angle-right footer-features_features_title_arrow-icon arrow-right fa-xl"></i>
+                  </div>
+                  <p class="footer-features_feature-desc">This is footer features description</p>
+                </div>
+        
+                <div class="footer-features_feature feature-3">
+                  <div class="footer-features_feature-title">
+                    <p class="footer-features-title-text">New Trending</p>
+                    <i class="fas fa-angle-right footer-features_features_title_arrow-icon arrow-right fa-xl"></i>
+                  </div>
+                  <p class="footer-features_feature-desc">This is footer features description</p>
+                </div>
+            </div>
+
+            <div class="footer-main">
+                <div class="footer-main_top">
+                  <p class="footer-main_brand">Brand</p>
+                  <div class="footer-main_pills-section">
+                    <p class="footer-main_pill-title">Legal</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                  </div>
+                  <div class="footer-main_pills-section">
+                    <p class="footer-main_pill-title">Legal</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                  </div>
+                  <div class="footer-main_pills-section">
+                    <p class="footer-main_pill-title">Legal</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                  </div>
+                  <div class="footer-main_contact-section">
+                    <p class="footer-main_contact-section_subscribe">Please subscribe us to know more</p>
+                    <div class="footer-main_contact-wrapper">
+                      <input type="email" name="email" id="subscribe-input" placeholder='Enter your e-mail'/>
+                      <label htmlFor="subscribe-input">Subsscribe</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-main_mid-cards-wrapper">
+                  --accepted cards--
+                </div>
+                <div class="footer-main_bottom">
+                  <p class="footer-main_bottom_text">2021 - All fking rights are reserved of this brand mf, so you better not use it.</p>
+                  <div class="footer-main_bottom_socials">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+        </footer>
+    </div>
+    </div>
+</body>
+</html>
