@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e57cde0360.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/main.css">
+    <title>ProductsPage</title>
+</head>
+<body>
+    <div class="App">
+    <div class="WishlistPage">
+    <header>
+        <div class="header">
+            <div class="header_top-container">
+                <div class="header_top_location">
+                <i class="fas fa-location-dot icon-map-pin"></i>
+                <p class="header_top_location_name">Rajasthan, India</p>
+                </div>
+                <div class="header_top_actions-wrapper">
+                <p class="header_top_action action-1">Find a store</p>
+                <p class="header_top_action action-2">Contact Us</p>
+                </div>
+            </div>
+            <nav class="header_main-container">
+                <a href="/Index.html"> <div class="header_main_brand-name">Brand</div> </a>
+                <div class="header_main_nav-pills-wrapper">
+                <h5 class="header_main_nav-pill">pill1</h5>
+                <h5 class="header_main_nav-pill">pill2</h5>
+                <h5 class="header_main_nav-pill">pill3</h5>
+                <h5 class="header_main_nav-pill">pill4</h5>
+                <h5 class="header_main_nav-pill">pill5</h5>
+                </div>
+                <div class="header_main_nav-actions-wrapper">
+                <div class="header_main_nav-search-wrapper">
+                    <i class="fas fa-lg fa-magnifying-glass"></i>
+                    <input type="text" placeholder='search' class='header_main_nav-search-box'/>
+                </div>
+                <div class="header_main_nav-action-icons-wrapper">
+                    <a href="/Pages/SignupPage.html"> <i class="far fa-lg fa-user header_main_nav-action-icon icon-user"></i>  </a>
+                    <a href="/Pages/WishlistPage.html"> <i class="far fa-lg fa-heart header_main_nav-action-icon icon-wishlist"></i> </a>
+                    <a href="/Pages/CartPage.html">  <i class="fas fa-lg fa-bag-shopping header_main_nav-action-icon icon-bag"></i> </a>
+                </div>
+                </div>
+            </nav>
+            <div class="header_promotional-container">
+                <p class="header_promotional_text">Checkout our new cool collection</p>
+                <i class="fas fa-lg fa-times header_promotional_icon-dismiss"></i>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="productPage_collection-header">
+            <p class="productPage_collection-header_title">Men</p>
+            <p class="productPage_collection-header_subtitle">Summer sollection 2022 (44)</p>
+        </div>
+
+        <div class="productPageFilters">
+            <div class="productPage_filters-container">
+                <div class="productPage-filters_section section-left">
+                <div class="productPage_filters_pill-container category">
+                    <p class="filters_pill-name">Category</p>
+                    <i class="fas fa-angle-down fa-md"></i>
+                    </div>
+                <div class="productPage_filters_pill-container material">
+                    <p class="filters_pill-name">Material</p>
+                    <i class="fas fa-angle-down fa-md"></i>
+                    </div>
+                <div class="productPage_filters_pill-container colors">
+                    <p class="filters_pill-name">Color</p>
+                    <i class="fas fa-angle-down fa-md"></i>
+                    </div>
+                <div class="productPage_filters_pill-container size">
+                    <p class="filters_pill-name">Size</p>
+                    <i class="fas fa-angle-down fa-md"></i>
+                    </div>
+                <div class="productPage_filters_pill-container rating">
+                    <p class="filters_pill-name">Rating</p>
+                    <i class="fas fa-angle-down fa-md"></i>
+                    </div>
+                <div class="productPage_filters_pill-container price">
+                    <p class="filters_pill-name">Price</p>
+                    <i class="fas fa-angle-down fa-md"></i>
+                    </div>
+                </div>
+                <div class="productPage-filters_section section-right">
+                <div class="productPage_filters_pill-container clear-filter">
+                    <p class="filters_pill-name">Clear</p>
+                </div>
+                <div class="productPage_filters_pill-container sort">
+                    <div class="filters_pill_sort-wrapper">
+                    <p class="filters_pill-name">Sort By</p>
+                    <p class="filters_pill_sort-type">Relevance</p>
+                    </div>
+                    <i class="fas fa-angle-down fa-md"></i>
+                </div>
+                </div>
+            </div>
+            <div class="productPage_eachFilter-container">
+                <!-- <div class="FilterCategory">
+                    <div class="filters_eachFilter filter-category">
+                        <input type="checkbox" id="filter-category category-1" />
+                        <label htmlFor="category-1">Jerey (19)</label>
+                        <input type="checkbox" id="filter-category category-2" />
+                        <label htmlFor="category-2">Polos (10)</label>
+                        <input type="checkbox" id="filter-category category-3" />
+                        <label htmlFor="category-3">Shirts (6)</label>
+                    </div>
+                </div>
+                <div class="FilterMaterial">
+                    <div class="filters_eachFilter filter-category">
+                        <div class="filters_eachFilter filter-material">
+                            <input type="checkbox" id="filter-material material-1" />
+                            <label htmlFor="material-1">Leather (19)</label>
+                            <input type="checkbox" id="filter-material material-2" />
+                            <label htmlFor="material-2">Cotton (10)</label>
+                            <input type="checkbox" id="filter-material material-3" />
+                            <label htmlFor="material-3">Wool (6)</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="FilterColor">
+                    <div class="filters_eachFilter filter-color">
+                        <input type="checkbox" id="filter-color color-1" />
+                        <label htmlFor="color-1"></label>
+                        <input type="checkbox" id="filter-color color-2" />
+                        <label htmlFor="color-2"></label>
+                        <input type="checkbox" id="filter-color color-3" />
+                        <label htmlFor="color-3"></label>
+                    </div>
+                </div>
+                <div class="FilterSize">
+                    <div class="filters_eachFilter filter-size">
+                        <input type="checkbox" id="filter-size size-1" />
+                        <label htmlFor="size-1">XS</label>
+                        <input type="checkbox" id="filter-size size-2" />
+                        <label htmlFor="size-2">S</label>
+                        <input type="checkbox" id="filter-size size-3" />
+                        <label htmlFor="size-3">M</label>
+                    </div>
+                </div>
+                <div class="FilterRating">
+                    <div class="filters_eachFilter filter-rating">
+                        <input type="checkbox" id="filter-rating rating-1" />
+                        <label htmlFor="rating-1">1 Star and above</label>
+                        <input type="checkbox" id="filter-rating rating-2" />
+                        <label htmlFor="rating-2">2 Star and above</label>
+                        <input type="checkbox" id="filter-rating rating-3" />
+                        <label htmlFor="rating-3">3 Star and above</label>
+                    </div>
+                </div> -->
+                <div class="FilterPrice">
+                    <form class="filters_eachFilter filter-price" onInput="o.value=parseInt(p.value)">
+                        <label class='filter-price-label label-min' htmlFor="filter-price">$650</label>
+                        <input type="range" min="0" max="100" value="10" id="filter-price" name="p"/>
+                        <label class='filter-price-label label-max' htmlFor="filter-price">$1,100</label>
+                        <output class='filter-price-output' htmlFor="filter-price" name="o"></output>
+                    </form>
+                </div>
+                <!-- <div class="FilterSort">
+                    <div class="filters_eachFilter filter-sort">
+                        <input type="checkbox" id="filter-sort sort-1" />
+                        <label htmlFor="sort-1">1 Star and above</label>
+                        <input type="checkbox" id="filter-sort sort-2" />
+                        <label htmlFor="sort-2">2 Star and above</label>
+                        <input type="checkbox" id="filter-sort sort-3" />
+                        <label htmlFor="sort-3">3 Star and above</label>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <main class="productPage_products">
+            <div class="productPage_each-card-wrapper">
+                <div class="productPage_each-card-top">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="productPage_card-img" />
+                    <i class="far fa-xl fa-heart each-card_img-overlay icon-heart"></i>
+                    <i class="fas fa-angle-left each-card_img-overlay icon-arrow arrow-left"></i>
+                    <i class="fas fa-angle-right each-card_img-overlay icon-arrow arrow-right"></i>
+                </div>
+                <div class="productPage_each-card-section-bottom">
+                    <p class="productPage_card-desc">Xyz Jacket With Leather Details</p>
+                    <p class="productPage_card-price">$999</p>
+                    <p class="productPage_card-badge">New Collection</p>
+                </div>
+            </div>
+    
+            <div class="productPage_each-card-wrapper">
+                <div class="productPage_each-card-top">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="productPage_card-img" />
+                    <i class="far fa-xl fa-heart each-card_img-overlay icon-heart" area-hidden="true"></i>
+                    <i class="fas fa-angle-left each-card_img-overlay icon-arrow arrow-left"></i>
+                    <i class="fas fa-angle-right each-card_img-overlay icon-arrow arrow-right"></i>
+                </div>
+                <div class="productPage_each-card-section-bottom">
+                    <p class="productPage_card-desc">Xyz Jacket With Leather Details</p>
+                    <p class="productPage_card-price">$999</p>
+                    <p class="productPage_card-badge">New Collection</p>
+                </div>
+            </div>
+    
+            <div class="productPage_each-card-wrapper">
+                <div class="productPage_each-card-top">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="productPage_card-img" />
+                    <i class="far fa-xl fa-heart each-card_img-overlay icon-heart"></i>
+                    <i class="fas fa-angle-left each-card_img-overlay icon-arrow arrow-left"></i>
+                    <i class="fas fa-angle-right each-card_img-overlay icon-arrow arrow-right"></i>
+                </div>
+                <div class="productPage_each-card-section-bottom">
+                    <p class="productPage_card-desc">Xyz Jacket With Leather Details</p>
+                    <p class="productPage_card-price">$999</p>
+                    <p class="productPage_card-badge">New Collection</p>
+                </div>
+            </div>
+    
+            <div class="productPage_each-card-wrapper">
+                <div class="productPage_each-card-top">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="productPage_card-img" />
+                    <i class="far fa-xl fa-heart each-card_img-overlay icon-heart"></i>
+                    <i class="fas fa-angle-left each-card_img-overlay icon-arrow arrow-left"></i>
+                    <i class="fas fa-angle-right each-card_img-overlay icon-arrow arrow-right"></i>
+                </div>
+                <div class="productPage_each-card-section-bottom">
+                    <p class="productPage_card-desc">Xyz Jacket With Leather Details</p>
+                    <p class="productPage_card-price">$999</p>
+                    <p class="productPage_card-badge">New Collection</p>
+                </div>
+            </div>
+    
+            <div class="productPage_each-card-wrapper">
+                <div class="productPage_each-card-top">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="productPage_card-img" />
+                    <i class="far fa-xl fa-heart each-card_img-overlay icon-heart"></i>
+                    <i class="fas fa-angle-left each-card_img-overlay icon-arrow arrow-left"></i>
+                    <i class="fas fa-angle-right each-card_img-overlay icon-arrow arrow-right"></i>
+                </div>
+                <div class="productPage_each-card-section-bottom">
+                    <p class="productPage_card-desc">Xyz Jacket With Leather Details</p>
+                    <p class="productPage_card-price">$999</p>
+                    <p class="productPage_card-badge">New Collection</p>
+                </div>
+            </div>
+    
+            <div class="productPage_each-card-wrapper">
+                <div class="productPage_each-card-top">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="productPage_card-img" />
+                    <i class="far fa-xl fa-heart each-card_img-overlay icon-heart"></i>
+                    <i class="fas fa-angle-left each-card_img-overlay icon-arrow arrow-left"></i>
+                    <i class="fas fa-angle-right each-card_img-overlay icon-arrow arrow-right"></i>
+                </div>
+                <div class="productPage_each-card-section-bottom">
+                    <p class="productPage_card-desc">Xyz Jacket With Leather Details</p>
+                    <p class="productPage_card-price">$999</p>
+                    <p class="productPage_card-badge">New Collection</p>
+                </div>
+            </div>
+
+            <div class="productPage_each-card-wrapper">
+                <div class="productPage_each-card-top">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="productPage_card-img" />
+                    <i class="far fa-xl fa-heart each-card_img-overlay icon-heart"></i>
+                    <i class="fas fa-angle-left each-card_img-overlay icon-arrow arrow-left"></i>
+                    <i class="fas fa-angle-right each-card_img-overlay icon-arrow arrow-right"></i>
+                </div>
+                <div class="productPage_each-card-section-bottom">
+                    <p class="productPage_card-desc">Xyz Jacket With Leather Details</p>
+                    <p class="productPage_card-price">$999</p>
+                    <p class="productPage_card-badge">New Collection</p>
+                </div>
+            </div>
+
+            <div class="productPage_each-card-wrapper">
+                <div class="productPage_each-card-top">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="productPage_card-img" />
+                    <i class="far fa-xl fa-heart each-card_img-overlay icon-heart"></i>
+                    <i class="fas fa-angle-left each-card_img-overlay icon-arrow arrow-left"></i>
+                    <i class="fas fa-angle-right each-card_img-overlay icon-arrow arrow-right"></i>
+                </div>
+                <div class="productPage_each-card-section-bottom">
+                    <p class="productPage_card-desc">Xyz Jacket With Leather Details</p>
+                    <p class="productPage_card-price">$999</p>
+                    <p class="productPage_card-badge">New Collection</p>
+                </div>
+            </div>
+
+            <div class="productPage_each-card-wrapper">
+                <div class="productPage_each-card-top">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="productPage_card-img" />
+                    <i class="far fa-xl fa-heart each-card_img-overlay icon-heart"></i>
+                    <i class="fas fa-angle-left each-card_img-overlay icon-arrow arrow-left"></i>
+                    <i class="fas fa-angle-right each-card_img-overlay icon-arrow arrow-right"></i>
+                </div>
+                <div class="productPage_each-card-section-bottom">
+                    <p class="productPage_card-desc">Xyz Jacket With Leather Details</p>
+                    <p class="productPage_card-price">$999</p>
+                    <p class="productPage_card-badge">New Collection</p>
+                </div>
+            </div>
+
+            <div class="productPage_each-card-wrapper">
+                <div class="productPage_each-card-top">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="productPage_card-img" />
+                    <i class="far fa-xl fa-heart each-card_img-overlay icon-heart"></i>
+                    <i class="fas fa-angle-left each-card_img-overlay icon-arrow arrow-left"></i>
+                    <i class="fas fa-angle-right each-card_img-overlay icon-arrow arrow-right"></i>
+                </div>
+                <div class="productPage_each-card-section-bottom">
+                    <p class="productPage_card-desc">Xyz Jacket With Leather Details</p>
+                    <p class="productPage_card-price">$999</p>
+                    <p class="productPage_card-badge">New Collection</p>
+                </div>
+            </div>
+
+            <div class="productPage_each-card-wrapper">
+                <div class="productPage_each-card-top">
+                    <img src="https://picsum.photos/id/129/290/290/?blur=1" alt="img" class="productPage_card-img" />
+                    <i class="far fa-xl fa-heart each-card_img-overlay icon-heart"></i>
+                    <i class="fas fa-angle-left each-card_img-overlay icon-arrow arrow-left"></i>
+                    <i class="fas fa-angle-right each-card_img-overlay icon-arrow arrow-right"></i>
+                </div>
+                <div class="productPage_each-card-section-bottom">
+                    <p class="productPage_card-desc">Xyz Jacket With Leather Details</p>
+                    <p class="productPage_card-price">$999</p>
+                    <p class="productPage_card-badge">New Collection</p>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="productPage_loadMore-container">
+            <div class="loadMore_desc">
+                <p class="loadMore_desc_text">Show 18 of 48 Products</p>
+                <p class="loadMore_desc_outline">---------------------------------------------</p>
+            </div>
+            <div class="loadMore_action">
+                <button class="loadMore_action_btn pointer">Load More</button>
+            </div>
+        </div>
+    </section>
+
+        <footer>
+            <div class="footer-features-container">
+                <div class="footer-features_feature feature-1">
+                  <div class="footer-features_feature-title">
+                    <p class="footer-features-title-text">New Trending</p>
+                    <i class="fas fa-angle-right footer-features_features_title_arrow-icon arrow-right fa-xl"></i>
+                  </div>
+                  <p class="footer-features_feature-desc">This is footer features description</p>
+                </div>
+        
+                <div class="footer-features_feature feature-2">
+                  <div class="footer-features_feature-title">
+                    <p class="footer-features-title-text">New Trending</p>
+                    <i class="fas fa-angle-right footer-features_features_title_arrow-icon arrow-right fa-xl"></i>
+                  </div>
+                  <p class="footer-features_feature-desc">This is footer features description</p>
+                </div>
+        
+                <div class="footer-features_feature feature-3">
+                  <div class="footer-features_feature-title">
+                    <p class="footer-features-title-text">New Trending</p>
+                    <i class="fas fa-angle-right footer-features_features_title_arrow-icon arrow-right fa-xl"></i>
+                  </div>
+                  <p class="footer-features_feature-desc">This is footer features description</p>
+                </div>
+            </div>
+
+            <div class="footer-main">
+                <div class="footer-main_top">
+                  <p class="footer-main_brand">Brand</p>
+                  <div class="footer-main_pills-section">
+                    <p class="footer-main_pill-title">Legal</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                  </div>
+                  <div class="footer-main_pills-section">
+                    <p class="footer-main_pill-title">Legal</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                  </div>
+                  <div class="footer-main_pills-section">
+                    <p class="footer-main_pill-title">Legal</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                    <p class="footer-main_pill">Trending</p>
+                  </div>
+                  <div class="footer-main_contact-section">
+                    <p class="footer-main_contact-section_subscribe">Please subscribe us to know more</p>
+                    <div class="footer-main_contact-wrapper">
+                      <input type="email" name="email" id="subscribe-input" placeholder='Enter your e-mail'/>
+                      <label htmlFor="subscribe-input">Subsscribe</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-main_mid-cards-wrapper">
+                  --accepted cards--
+                </div>
+                <div class="footer-main_bottom">
+                  <p class="footer-main_bottom_text">2021 - All fking rights are reserved of this brand mf, so you better not use it.</p>
+                  <div class="footer-main_bottom_socials">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+        </footer>
+    </div>
+    </div>
+
+    <main class="loginPage-container">
+        <div class="loginPage_top">
+            <div class="loginPage_header">
+                <div class="loginPage_header_title-wrapper">
+                <h4 class="loginPage_header_title">Login</h4>
+                </div>
+                <p class="loginPage_header_desc">If you are a registered user, please enter your email and password.</p>
+            </div>
+            <form action="/" class="loginPage_form">
+                <input placeholder="Email" type="text" name="/" class="loginPage_form_input input-email">
+                <input placeholder="Password" type="text" name="/" class="loginPage_form_input input-pass">
+                <div class="loginPage_form_checkbox-wrapper">
+                    <input type="checkbox" name="/" id="remember-me" class="loginPage_form_checkbox">
+                    <label for="remember-me" class="loginPage_form_checkbox-label">Remember me</label>
+                </div>
+                <button type="submit" class="loginPage_from_submit hover-hollow">Login</button>
+                <a href="/" class="loginPage_from_action-forgot-pass">Forgot my password</a>
+            </form>
+        </div>
+    
+        <div class="loginPage_bottom">
+            <div class="loginPage_bottom_header-wrapper">
+                <h4 class="loginPage_bottom_header_title">Get an account now</h4>
+                <p class="loginPage_bottom_header_desc">Save credit card details for faster shopping Manage your order history Gain access to your Wishlist</p>
+            </div>
+            <button class="loginPage_bottom_action hover-fill-solid">Register now</button>
+        </div>
+        </main>
+</body>
+</html>
