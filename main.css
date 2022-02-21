@@ -1,0 +1,7 @@
+@import url('/Styles/reset.css');
+@import url('/Styles/styles.css');
+@import url('/Styles/utils.css');
+
+.App {
+  text-align: center;
+}
