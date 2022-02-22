@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/e57cde0360.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://beluga-ui.netlify.app/RootExport.css">
     <link rel="stylesheet" href="/main.css">
     <title>SignupPage</title>
 </head>
@@ -26,11 +27,11 @@
             <nav class="header_main-container">
               <a href="/Index.html"> <div class="header_main_brand-name">Brand</div> </a>
                 <div class="header_main_nav-pills-wrapper">
-                <h5 class="header_main_nav-pill">pill1</h5>
-                <h5 class="header_main_nav-pill">pill2</h5>
-                <h5 class="header_main_nav-pill">pill3</h5>
-                <h5 class="header_main_nav-pill">pill4</h5>
-                <h5 class="header_main_nav-pill">pill5</h5>
+                  <a href="/Pages/ProductsPage.html"> <h5 class="header_main_nav-pill">product</h5> </a>
+                  <a href="/Pages/ProductsPage.html"> <h5 class="header_main_nav-pill">product</h5> </a>
+                  <a href="/Pages/ProductsPage.html"> <h5 class="header_main_nav-pill">product</h5> </a>
+                  <a href="/Pages/ProductsPage.html"> <h5 class="header_main_nav-pill">product</h5> </a>
+                  <a href="/Pages/ProductsPage.html"> <h5 class="header_main_nav-pill">product</h5> </a>
                 </div>
                 <div class="header_main_nav-actions-wrapper">
                 <div class="header_main_nav-search-wrapper">
@@ -50,7 +51,15 @@
     <main class="signupPage-container">
       <div class="signupPage-header-wrapper">
       <h3 class="signupPage_header">Create an account</h3>
+      <div class="flex-centered gap-8">
       <a class="signupPage_action-login">Log In</a>
+      <a class="signupPage_action-logout">Log Out</a>
+      </div>
+      </div>
+
+      <div class="logout-toast flex-centered justify-space-between">
+        <p class="logout-toast-text"><i class="fas fa-user-slash mr-2"></i>You've been logged out of the website!</p>
+        <i class="fas fa-times logout-dismiss"></i>
       </div>
 
       <section class="signupPage_left">
