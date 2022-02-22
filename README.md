@@ -1,7 +1,7 @@
 # E-commerce by chirag modi
 
 
-A Ecommerce app for unisex clothing
+A Ecommerce app of unisex clothing
 
 ![Forks](https://img.shields.io/github/forks/Chiragmodi01/E-com-neog)
 ![Stars](https://img.shields.io/github/stars/Chiragmodi01/E-com-neog)
