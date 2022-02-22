@@ -8,7 +8,7 @@ A Ecommerce app of unisex clothing
 
 ## Preview
 
-
+![e-com-screen-cm (1)](https://user-images.githubusercontent.com/75688193/155189780-d0ea0ddc-5c5c-4916-9e97-5f85c3d2947f.gif)
 
 
 ## Pages till now
